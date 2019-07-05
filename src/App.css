@@ -1,8 +1,14 @@
-.App { 
- 
-  text-align: center;
+ .time-container {
+    text-align: center;
 }
-div {
-  word-spacing: 10px;
+.time-inner-container {
+    display: inline-block;
 }
- 
+.time-digits {
+    font-size: 4em;
+}
+.time-text {
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+}

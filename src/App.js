@@ -1,13 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Time from './Component/time.js'
+import Timer from './Component/timer'
 
 function App() {
-  return (
-    <div className="App"> 
-        <Time /> 
-    </div>
+  return ( 
+   <div>
+      <Timer /> 
+  </div>
   );
 }
 
